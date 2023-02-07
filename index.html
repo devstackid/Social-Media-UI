@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css lokal -->
+    <link rel="stylesheet" href="style.css">
+    <title>Social Media UI/UX</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidebar">
+            <div class="titik">
+                <div class="red"></div>
+                <div class="green"></div>
+                <div class="blue"></div>
+            </div>
+
+            <div class="links">
+                <a href="" class="active"><i class="fa-solid fa-bolt"></i></a>
+                <a href=""><i class="fa-solid fa-camera"></i></a>
+                <a href=""><i class="fa-solid fa-circle-question"></i></i></a>
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </div>
+
+        <div class="onlineuser">
+            <div class="card">
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="asset/hero.png" width="40" alt="">
+                    </div>
+                    <div class="wrapper2">
+                        <div class="username">
+                            <p>Saya</p>
+                            <small>Online</small>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="asset/1.jpg" width="40" alt="">
+                    </div>
+                    <div class="wrapper2">
+                        <div class="username">
+                            <p>Burhan</p>
+                            <small>Online</small>
+                        </div>
+                        <div class="add">
+                            <button>
+                                <i class="fa-solid fa-user-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="asset/2.jpg" width="40" alt="">
+                    </div>
+                    <div class="wrapper2">
+                        <div class="username">
+                            <p>Arul</p>
+                            <small>Online</small>
+                        </div>
+                        <div class="add">
+                            <button>
+                                <i class="fa-solid fa-user-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search">
+                <form>
+                    <div>
+                        <input type="text" name="search" id="search" placeholder="Temukan User" autocomplete="off">
+                    </div>
+                </form>
+            </div>
+
+            <div class="chat">
+                <div class="text">
+                    <span>Message <small>(20)</small></span>
+                </div>
+                <button>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+            </div>
+
+            <div class="chats">
+                <div class="wrapperchat">
+                    <div class="profileuserchat">
+                        <img src="asset/4.jpg" width="40" alt="">
+                    </div>
+                    <div class="usernamechat">
+                        <p>Marsupilami</p>
+                        <small><i class="fa-solid fa-check"></i> Iya bro oke.</small>
+                    </div>
+                    <div class="lasttimechat">
+                        <small>20:30</small>
+                    </div>
+                </div>
+
+                <div class="wrapperotherchat">
+                    <div class="profileuserchat">
+                        <img src="asset/5.jpg" width="40" alt="">
+                    </div>
+                    <div class="usernamechat">
+                        <p>Ajeng</p>
+                        <small><i class="fa-solid fa-check-double"></i> Oke siap.</small>
+                    </div>
+                    <div class="lasttimechat">
+                        <small>20:50</small>
+                    </div>
+                </div>
+
+                <div class="wrapperotherchat">
+                    <div class="profileuserchat">
+                        <img src="asset/1.jpg" width="40" alt="">
+                    </div>
+                    <div class="usernamechat">
+                        <p>Raihan</p>
+                        <small><i class="fa-solid fa-check"></i> Ko ceklis si?</small>
+                    </div>
+                    <div class="lasttimechat">
+                        <small>5:40</small>
+                    </div>
+                </div>
+
+                <div class="wrapperotherchat">
+                    <div class="profileuserchat">
+                        <img src="asset/6.jpg" width="40" alt="">
+                    </div>
+                    <div class="usernamechat">
+                        <p>Wahyi</p>
+                        <small><i class="fa-solid fa-check"></i> Di hutan bro?</small>
+                    </div>
+                    <div class="lasttimechat">
+                        <small>13:00</small>
+                    </div>
+                </div>
+
+                <div class="wrapperotherchat">
+                    <div class="profileuserchat">
+                        <img src="asset/7.jpg" width="40" alt="">
+                    </div>
+                    <div class="usernamechat">
+                        <p>Agus Triatno</p>
+                        <small><i class="fa-solid fa-check"></i> sinyalmu apa woy?</small>
+                    </div>
+                    <div class="lasttimechat">
+                        <small>00:03</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="chatactive">
+            <div class="header">
+                <div class="profilechatactive">
+                    <img src="asset/4.jpg" width="40px" alt="">
+                </div>
+                <div class="usernamechatactive">
+                    <small>Marsupilami</small>
+                </div>
+                <div class="actionbutton">
+                    <button>
+                        <i class="fa-solid fa-video"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+
+                    <small>
+                        Offline
+                    </small>
+                </div>
+            </div>
+
+            <div class="time">
+                Kemarin
+            </div>
+
+            <div class="content">
+                <div class="peoplechat">
+                    <span>hahaha <small>12:43</small></span>
+                </div>
+
+                <div class="pembungkus">
+                    <div class="ourchat">
+                        <span><small>12:55</small> Apanya yg lucu?</span>
+                    </div>
+
+                    <div class="ourchat">
+                        <span><small>12:56</small> Namamu kok marsupilami? kaya kenal.</span>
+                    </div>
+                </div>
+
+                <div class="peoplechat">
+                    <span>ya gpp, biar keren bro. <small>12:57</small></span>
+                </div>
+
+                <div class="pembungkus">
+                    <div class="ourchat">
+                        <span><small>12:58</small> Keren bro kaya kartun namanya</span>
+                    </div>
+
+                    <div class="ourchat">
+                        <span><small>12:59</small> marsupilami itu hewan tapi rill cuy</span>
+                    </div>
+                </div>
+
+                <div class="peoplechat">
+                    <span>ya namanya juga hidup, kadang enak kdg enak terus. <small>13:30</small></span>
+                </div>
+
+                <div class="pembungkus">
+                    <div class="ourchat">
+                        <span><small>20:30</small> iya oke bro. </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="ourimg">
+                    <img src="asset/hero.png" width="40"  alt="">
+                </div>
+                <div class="inputchat">
+                    <input type="text" name="textchat" id="textchat" placeholder="Kirim Pesan..">
+                </div>
+                <div class="tombolaksi">
+                    <button>
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-file"></i>
+                    </button>
+                    <button class="send">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="status">
+            <div class="textstatus">
+                <small>
+                    Status
+                </small>
+            </div>
+
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/hero.png" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Status Saya</p>
+                    <small>Ketuk untuk menambahkan status baru</small>
+                </div>
+            </div>
+
+            <div class="textstatus">
+                <small>
+                    Status Terbaru
+                </small>
+            </div>
+
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/1.jpg" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Raihan</p>
+                    <small>Kemarin 22:13</small>
+                </div>
+            </div>
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/4.jpg" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Marsupilami</p>
+                    <small>Hari Ini 20:43</small>
+                </div>
+            </div>
+
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/2.jpg" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Arul</p>
+                    <small>Hari Ini 13:23</small>
+                </div>
+            </div>
+
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/7.jpg" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Agus Triatno</p>
+                    <small>Hari Ini 7:20</small>
+                </div>
+            </div>
+
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/5.jpg" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Burhan</p>
+                    <small>Hari Ini 15:33</small>
+                </div>
+            </div>
+            
+            <div class="ourstatus">
+                <div class="img">
+                    <img src="asset/5.jpg" width="40" alt="">
+                </div>
+                <div class="desc">
+                    <p>Predy</p>
+                    <small>Hari Ini 15:33</small>
+                </div>
+            </div>
+            
+
+            <div class="createstatus">
+                <div class="createtext">
+                    <button>
+                        <i class="fa-solid fa-pencil"></i>
+                    </button>
+                </div>
+                <div class="createtext">
+                    <button>
+                        <i class="fa-solid fa-camera"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
